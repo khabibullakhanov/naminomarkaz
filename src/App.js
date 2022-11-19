@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./Assets/CSS/App.css";
 import { Bizhaqimizda } from "./Pages/Bizhaqimizda";
@@ -18,13 +17,11 @@ import { Paxta } from "./Pages/Paxta";
 import { Dastur } from "./Pages/Dastur";
 import { CottonProjectNames } from "./Pages/CottonProjectNames";
 import { Backdrop, CircularProgress } from "@mui/material";
-import { useSelector, useDispatch } from "react-redux";
-import { acLoading } from "./Redux/Loading";
+import { useSelector } from "react-redux";
 // import { useLocation } from "react-router-dom";
 
 function App() {
   const loading = useSelector((state) => state.loading);
-  const dispatch = useDispatch();
   // setTimeout(() => {
   //   dispatch(acLoading(true));
   // }, 1);

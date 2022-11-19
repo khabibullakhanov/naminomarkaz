@@ -12,7 +12,7 @@ export function Futr() {
     <div id="futr">
       <div id="futer">
         <div id="lagatip">
-        <Link to="/" ><div id="log"><img src={logo}/><span>Namangan viloyati hududiy inovatsiya faoliyati va texnologiyalar trasfer markazi</span></div></Link>
+        <Link to="/" ><div id="log"><img src={logo} alt="" /><span>Namangan viloyati hududiy inovatsiya faoliyati va texnologiyalar trasfer markazi</span></div></Link>
         </div>
         <div id="linklar">
           <Link to="/bizhaqimizda">Biz haqimizda</Link>
