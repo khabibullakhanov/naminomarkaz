@@ -1,0 +1,15 @@
+
+#coton-pages{
+  color: #1666C1;
+  
+}
+#lii:hover{
+    color: #090972;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#cotonProNamesTittle {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}

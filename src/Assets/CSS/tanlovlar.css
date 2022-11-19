@@ -1,0 +1,80 @@
+#sarlv{
+    background-color: rgb(13, 13, 116);
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sarlv h1{
+    font-size: 50px;
+}
+#yetakchi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#tanl img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+#tanl{
+    width: 350px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    line-height: 1.5;
+    border-bottom: 4px solid rgb(22, 102, 193);
+    margin-left: 20px;
+    box-shadow: 5px 20px 12px 5px rgb(215, 215, 215);
+    
+}
+#tanl p{
+    color: rgb(9, 9, 114);
+    padding: 10px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tanl span{
+    padding: 15px 10px 15px;
+}
+#tanl button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 102, 193);
+    padding: 20px 0px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#tanl button:hover{
+    background-color: rgb(9, 21, 88);
+}
+#tanl a button{
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+#tanl a{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    #yetakchi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tanl{
+        margin-top: 40px;
+    }
+}

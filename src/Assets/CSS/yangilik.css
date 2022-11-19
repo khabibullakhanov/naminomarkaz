@@ -1,0 +1,64 @@
+#yangilik{
+    background-image: url(../Images/19276.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yangilik h1{
+    font-size: 40px;
+}
+#elon{
+    margin: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#elonlar img{
+    width: 100%;
+    border-radius: 5px;
+}
+#elonlar{
+    width: 70%;
+}
+#elonlar h2{
+    line-height: 2;
+    color: rgb(13, 13, 87);
+    padding-top: 20px;
+}
+#elonlar span{
+    font-size: 17px;
+    line-height: 1.5;
+}
+#xabarlar img{
+    width: 100%;
+    border-radius: 8px;
+}
+#xabarlar{
+    width: 300px;
+    margin-bottom: 20px;
+}
+#xabarlar h3{
+    color: rgb(13, 13, 87);
+    line-height: 1.5;
+    padding-top: 10px;
+    font-size: 16px;
+}
+#line{
+    border-right: 2px solid rgb(142, 141, 141);
+}
+
+
+@media screen and (max-width: 1100px){
+   #elon{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .imglar{
+       width: 100%;
+   } 
+}

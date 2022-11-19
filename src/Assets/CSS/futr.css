@@ -1,0 +1,48 @@
+#futr{
+    height: 250px;
+    background-image: url(../Images/25552.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#linklar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#linklar{
+   display: flex;
+   flex-direction: column;
+   line-height: 2;
+}
+#futer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#lagatip a{
+    text-decoration: none;
+}
+#tell h2{
+    padding-bottom: 20px;
+}
+#tell img{
+    width: 50px;
+    padding-left: 20px;
+}
+#ikonlar{
+    padding-top: 30px;
+}   
+
+
+@media screen and (max-width: 1100px){
+    #futer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #futr{
+        height: 90vh;
+    }
+}
